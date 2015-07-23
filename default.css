@@ -67,11 +67,11 @@ img.right {
 /* Header */
 
 #logo {
-	width: 1000px;
+	width: 920px;
 	height: 100px;
 	margin: 0 auto;
 	padding: 0 10px 0 70px;
-	background: url(images/img01.jpg) no-repeat left top;
+	background: white;
 }
 
 #logo h1, #logo p {
@@ -87,7 +87,7 @@ img.right {
 #logo h1 {
 	padding: 25px 0 0 0;
 	letter-spacing: -1px;
-	text-transform: lowercase;
+	
 	font-weight: normal;
 	font-size: 3em;
 }
@@ -399,7 +399,7 @@ img.right {
 	margin: 0 auto;
 	padding: 0 20px;
 	text-align: center;
-	background: url(images/img04a.jpg) no-repeat left top;
+	background: white;
 }
 
 #footer1 p {
@@ -435,4 +435,31 @@ table.blue th {
 		background: orange;
     cellspacing: 0;
     cellpadding: 0;
+}
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border: 1px solid #0000ff;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
 }
