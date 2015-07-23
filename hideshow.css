@@ -1,0 +1,37 @@
+
+.dhtmlgoodies_question{	/* Styling question */
+	/* Start layout CSS */
+	font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
+  color:brown;
+	font-size:1.2em;
+	width:690px;
+	margin-bottom:2px;
+	margin-top:2px;
+	padding-left:2px;
+	background-repeat:no-repeat;
+	background-position:top right;
+	height:20px;
+
+	/* End layout CSS */
+	overflow:hidden;
+	cursor:pointer;
+}
+.dhtmlgoodies_answer{	/* Parent box of slide down content */
+	/* Start layout CSS */
+	border:1px solid #317082;
+  color:black;
+	width:690px;
+
+	/* End layout CSS */
+	visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+
+}
+.dhtmlgoodies_answer_content{	/* Content that is slided down */
+	padding:1px;
+	font-size:1.2em;
+  color:black;
+	position:relative;
+}
